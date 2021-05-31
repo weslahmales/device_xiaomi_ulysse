@@ -24,4 +24,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_ulysse.mk \
     $(LOCAL_DIR)/pixeldust_ulysse.mk \
     $(LOCAL_DIR)/rr_ulysse.mk \
-    $(LOCAL_DIR)/xtended_ulysse.mk
+    $(LOCAL_DIR)/xtended_ulysse.mk \
+    $(LOCAL_DIR)/dot_ulysse.mk
