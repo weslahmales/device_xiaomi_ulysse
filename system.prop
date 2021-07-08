@@ -6,7 +6,7 @@ persist.ov16885.flash.light=275
 
 # PixelPlusUI OFFICIAL
 ro.ppui.device_name=Redmi Note 5A
-ro.ppui.version=3.6
-ro.ppui.version_code=Unicorn
+ro.ppui.version=3.7
+ro.ppui.version_code=Ragnarok
 ro.ppui.is_official=true
 ro.ppui.maintainer_name=Archipelago
