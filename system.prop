@@ -3,10 +3,3 @@ persist.s5k3p8sp.flash.low=320
 persist.s5k3p8sp.flash.light=300
 persist.ov16885.flash.low=290
 persist.ov16885.flash.light=275
-
-# PixelPlusUI OFFICIAL
-ro.ppui.device_name=Redmi Note 5A
-ro.ppui.version=3.11
-ro.ppui.version_code=Ignite
-ro.ppui.is_official=true
-ro.ppui.maintainer_name=Archipelago
