@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_ulysse.mk
+    $(LOCAL_DIR)/gabuters_ulysse.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_ulysse-user \
-    nad_ulysse-userdebug \
-    nad_ulysse-eng
+    gabuters_ulysse-user \
+    gabuters_ulysse-userdebug \
+    gabuters_ulysse-eng
