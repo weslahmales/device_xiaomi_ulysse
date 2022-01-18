@@ -22,21 +22,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/ulysse/device.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # GAPPS
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 720
 IS_PHONE := true
-CUSTOM_BUILD_TYPE := OFFICIAL
+NAD_BUILD_TYPE := OFFICIAL
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-PPUI_MAINTAINER := Archipelago
+USE_LAWNCHAIR := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ulysse
-PRODUCT_NAME := aosp_ulysse
+PRODUCT_NAME := nad_ulysse
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 5A
