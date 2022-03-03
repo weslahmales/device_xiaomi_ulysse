@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_ulysse.mk
+    $(LOCAL_DIR)/arrow_ulysse.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_ulysse-user \
-    awaken_ulysse-userdebug \
-    awaken_ulysse-eng
+    arrow_ulysse-user \
+    arrow_ulysse-userdebug \
+    arrow_ulysse-eng
