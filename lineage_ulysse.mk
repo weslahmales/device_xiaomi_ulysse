@@ -21,22 +21,26 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/ulysse/device.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
-
-# Arrow additions
-DEVICE_MAINTAINER := weslahmales
-TARGET_INCLUDE_PIXEL_CHARGER := true
-TARGET_BOOT_ANIMATION_RES := 720
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ulysse
-PRODUCT_NAME := arrow_ulysse
+PRODUCT_NAME := lineage_ulysse
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 5A
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
+
+# Bootanimation Resolution
+TARGET_BOOT_ANIMATION_RES := 720
+
+# Charging Animation
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
+# Face unlock
+TARGET_USES_FACE_UNLOCK := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
