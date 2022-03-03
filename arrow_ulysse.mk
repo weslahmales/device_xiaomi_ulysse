@@ -22,21 +22,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/ulysse/device.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
-# GAPPS
-TARGET_GAPPS_ARCH := arm64
+# Arrow additions
+DEVICE_MAINTAINER := weslahmales
+TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_BOOT_ANIMATION_RES := 720
-IS_PHONE := true
-NAD_BUILD_TYPE := OFFICIAL
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
-TARGET_INCLUDE_STOCK_ACORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-USE_LAWNCHAIR := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ulysse
-PRODUCT_NAME := awaken_ulysse
+PRODUCT_NAME := arrow_ulysse
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 5A
@@ -53,6 +48,3 @@ BUILD_FINGERPRINT := "google/raven/raven:12/SQ1D.220205.003/8069835:user/release
 
 PRODUCT_PROPERTY_OVERRIDES += \
  ro.build.fingerprint=$(BUILD_FINGERPRINT)
-
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage/lineage-sdk
