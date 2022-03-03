@@ -1,19 +1,19 @@
 [
   {
     "remote":"github",
-    "repository":"NusantaraROM-Devices/device_xiaomi_ulysse-common",
+    "repository":"weslahmales/device_xiaomi_ulysse-common",
     "target_path":"device/xiaomi/ulysse-common",
     "branch":"12"
   },
   {
    "remote":"github",
-    "repository":"NusantaraROM-Devices/vendor_xiaomi_ugg",
+    "repository":"mgs28-mh/vendor_xiaomi_ugg",
     "target_path":"vendor/xiaomi/ugg",
     "branch":"12"
   },
   {
    "remote":"github",
-    "repository":"NusantaraROM-Devices/vendor_xiaomi_ulysse-common",
+    "repository":"mgs28-mh/vendor_xiaomi_ulysse-common",
     "target_path":"vendor/xiaomi/ulysse-common",
     "branch":"12",
     "clone-depth":"1"
