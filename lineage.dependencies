@@ -1,7 +1,7 @@
 [
   {
     "remote":"github",
-    "repository":"weslahmales/device_xiaomi_ulysse-common",
+    "repository":"MhmmdAmier/device_xiaomi_ulysse-common",
     "target_path":"device/xiaomi/ulysse-common",
     "branch":"12"
   },
