@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_ulysse.mk
+    $(LOCAL_DIR)/lineage_ulysse.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_ulysse-user \
-    arrow_ulysse-userdebug \
-    arrow_ulysse-eng
+    lineage_ulysse-user \
+    lineage_ulysse-userdebug \
+    lineage_ulysse-eng
