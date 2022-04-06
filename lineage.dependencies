@@ -1,7 +1,7 @@
 [
   {
     "remote":"github",
-    "repository":"MhmmdAmier/device_xiaomi_ulysse-common",
+    "repository":"mgs28-mh/device_xiaomi_ulysse-common",
     "target_path":"device/xiaomi/ulysse-common",
     "branch":"12"
   },
@@ -20,9 +20,9 @@
   },
   {
    "remote":"github",
-    "repository":"mgs28-mh/kernel_xiaomi_ulysse-4.9",
+    "repository":"mi-msm8927/android_kernel_xiaomi_msm8937",
     "target_path":"kernel/xiaomi/ulysse",
-    "branch":"a12/temp",
+    "branch":"a12/master",
     "clone-depth":"1"
   },
   {
